@@ -5,7 +5,254 @@
     <title></title>
     <meta http-equiv="X-UA-COMPATIBLE" content="IE-edge,chrome=1"><!--告诉ie使用新的渲染方式，防止低版本的ie不能使用css3-->
     <meta name="viewport" content="width=device-width,initial-scale=1">
-   <link rel="stylesheet" href="main.css">
+   * {
+    保证金： 0 ;
+    填充： 0 ;
+}
+
+身体 {
+	font-family：Georia， serif ;
+	背景：＃36C ;
+	font-weight： bold ;
+	font-size： 15 px ;
+	颜色：＃000000 ;
+	溢出：隐藏 ;
+	-webkit-font-smoothing： antialiased ;
+}
+一个 {
+    文字修饰：无 ;
+    颜色：＃555 ;
+}
+.clr {
+    宽度： 0 ;
+    身高： 0 ;
+    溢出：隐藏 ;
+    明确：两者 ;
+    填充： 0 ;
+    保证金： 0 ;
+}
+.nav {
+    宽度： 100 ％ ;
+    位置：绝对 ;
+    左： 0 ;
+    底部： 0 ;
+    font-family： “ Josefin Slab ”， “ Myriad pro ”， serif ;
+}
+.nav  输入，.nav  a {
+    宽度： 20 ％ ;
+    身高： 34 px ;
+    line-height： 34 px ;
+    位置：固定 ;
+    底部： 0 ;
+    光标：指针 ;
+}
+.nav  输入 {
+    不透明度： 0 ;
+    z-index： 1000 ;
+}
+.nav  a {
+	z-index： 10 ;
+	font-weight： 700 ;
+	font-size： 16 px ;
+	背景：＃e23a6e ;
+	颜色：＃C00 ;
+	text-align： center ;
+	文字阴影： 1个像素  1个像素  1个像素  RGBA（ 151， 24， 64， 0.2）;
+}
+＃nav1，＃nav1  +  a {
+    剩下： 0 ％ ;
+}
+＃nav2，＃nav2  +  a {
+    左： 20 ％ ;
+}
+＃nav3，＃nav3  +  a {
+    剩下： 40 ％ ;
+}
+＃nav4，＃nav4  +  a {
+    左： 60 ％ ;
+}
+＃nav5，＃nav5  +  a {
+    左： 80 ％ ;
+}
+.nav  输入：checked  +  a，
+.nav  输入：checked：hover  + a {
+    背景：＃FFF0F5 ;
+}
+.nav  输入：选中 +  a ：在 {
+    内容： “ ” ;
+    宽度： 0 ;
+    身高： 0 ;
+    溢出：隐藏 ;
+    边界： 20 PX 固体 透明 ;
+    border-bottom-color：＃FFF0F5 ;
+    位置：绝对 ;
+    底部： 100 ％ ;
+    剩下： 50 ％ ;
+    保证金余额： -20 px ;
+}
+.nav  输入：hover  +  a {
+    背景：＃AD244f ;
+}
+.scroll，.panel {
+    宽度： 100 ％ ;
+    身高： 100 ％ ;
+    位置：相对 ;
+    text-align： center ;
+    padding-top： 250 px ;
+}
+.scroll {
+	左： 0 ;
+	top： 0 ;
+	-webkit变换： translate3d（ 0， 0， 0）;
+	-moz变换： translate3d（ 0， 0， 0）;
+	-ms变换： translate3d（ 0， 0， 0）;
+	-o-变换： translate3d（ 0， 0， 0）;
+	变换： translate3d（ 0， 0， 0）;
+	-webkit-backface-visibility： hidden ;
+	-moz-backface-visibility： hidden ;
+	backface-visibility： hidden ;
+	-webkit-transition：全部 0.6 s 进出 ;
+	-moz-transition：全部 0.6 秒 缓出 ;
+	-o-transition：全部 0.6 s 进出 ;
+	过渡：全部 0.6 秒 缓出 ;
+	颜色：＃000000 ;
+	font-weight： bold ;
+}
+.panel {
+	背景：＃FA8072 ;
+	溢出：隐藏 ;
+}
+/ *动画* /
+＃NAV1 ：检查 〜 .scroll  ＃PANEL1  H1 {
+    -webkit动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    -o-动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+}
+＃NAV2 ：检查 〜 .scroll  ＃是Panel2  H1 {
+    -webkit动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    -o-动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+}
+＃nav3 ：检查 〜 .scroll  ＃·Panel3中 H1 {
+    -webkit动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    -o-动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+}
+＃nav4 ：检查 〜 .scroll  ＃panel4  H1 {
+    -webkit动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    -o-动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+}
+＃nav5 ：检查 〜 .scroll  ＃panel5  H1 {
+    -webkit动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    -o-动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+    动画：下移 0.6 小号 易于进出 0.2 小号 向后 ;
+}
+@keyframes  moveDown {
+    0％ {
+        -webkit变换：平移Y（ -40 PX）;
+        -moz-transform： translateY（ -40 px）;
+        -ms-transform： translateY（ -40 px）;
+        -o-transform： translateY（ -40 px）;
+        transform： translateY（ -40 px）;
+        不透明度： 0 ;
+    }
+    100％ {
+        -webkit-transform： translateY（ 0）;
+        -moz-transform： translateY（ 0）;
+        -ms-transform： translateY（ 0）;
+        -o-transform： translateY（ 0）;
+        transform： translateY（ 0）;
+        不透明度： 1 ;
+    }
+}
+.panel  p {
+	颜色：＃000000 ;
+	margin-top： 20 px ;
+}
+＃NAV1 ：检查 〜 .scroll {
+     -webkit-transform： translateY（ 0 ％）;
+     -moz-transform： translateY（ 0 ％）;
+     -ms-transform： translateY（ 0 ％）;
+     -o-transform： translateY（ 0 ％）;
+     transform： translateY（ 0 ％）;
+ }
+＃NAV2 ：检查 〜 .scroll {
+    -webkit-transform： translateY（ -100 ％）;
+    -moz-transform： translateY（ -100 ％）;
+    -ms-transform： translateY（ -100 ％）;
+    -o-transform： translateY（ -100 ％）;
+    transform： translateY（ -100 ％）;
+}
+＃nav3 ：检查 〜 .scroll {
+    -webkit-transform： translateY（ -200 ％）;
+    -moz-transform： translateY（ -200 ％）;
+    -ms-transform： translateY（ -200 ％）;
+    -o-transform： translateY（ -200 ％）;
+    transform： translateY（ -200 ％）;
+}
+＃nav4 ：检查 〜 .scroll {
+    -webkit-transform： translateY（ -300 ％）;
+    -moz-transform： translateY（ -300 ％）;
+    -ms-transform： translateY（ -300 ％）;
+    -o-transform： translateY（ -300 ％）;
+    transform： translateY（ -300 ％）;
+}
+＃nav5 ：检查 〜 .scroll {
+    -webkit-transform： translateY（ -400 ％）;
+    -moz-transform： translateY（ -400 ％）;
+    -ms-transform： translateY（ -400 ％）;
+    -o-transform： translateY（ -400 ％）;
+    transform： translateY（ -400 ％）;
+}
+.icon {
+	宽度： 200 像素 ;
+	身高： 200 像素 ;
+	背景： #FFFFFF ;
+	-webkit-transform： translateY（ -50 ％）旋转（ 45 度）;
+	-moz-transform： translateY（ -50 ％）旋转（ 45 度）;
+	-ms-transform： translateY（ -50 ％）旋转（ 45 度）;
+	-o-transform： translateY（ -50 ％）旋转（ 45 度）;
+	转换： translateY（ -50 ％）旋转（ 45 度）;
+	位置：绝对 ;
+	剩下： 50 ％ ;
+	top： 0 ;
+	余量： -100 像素 ;
+}
+[ 数据图标 ] ：在 {
+	内容： attr（ data-icon）;
+	宽度： 200 像素 ;
+	身高： 200 像素 ;
+	颜色：＃36F ;
+	font-size： 90 px ;
+	text-align： center ;
+	行高： 200 px ;
+	位置：绝对 ;
+	剩下： 18 ％ ;
+	顶部： 18 ％ ;
+	-webkit-transform：旋转（ -45 度）;
+	-moz-transform：旋转（ -45 度）;
+	-ms-transform：旋转（ -45 度）;
+	-o-transform：旋转（ -45 度）;
+	变换：旋转（ -45 度）;
+}
+.panelColor {
+	颜色：＃000000 ;
+	background-color：＃FF9866 ;
+}
+.panelColor  .icon {
+	背景： #fff ;  / *三角框的背景颜色* /
+	颜色：＃FF3366 ;
+}
+.panelColor  .icon ：在 {
+	颜色：＃000000 ;  / *三角框的文字颜色* /
+}
+.scroll  .panel  h1 {
+    font-size： 60 px ;
+}
+@media  屏幕 和（最大设备宽度：520 像素）{
+
+}
 </head>
 <body>
 <div class="container">
